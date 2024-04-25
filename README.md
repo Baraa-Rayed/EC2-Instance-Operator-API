@@ -1,8 +1,4 @@
 # EC2 Instance Operator API
-<p align="center">
-     <img src="https://github.com/Baraa-Rayed/EC2-Instance-Operator-API/assets/101131013/4fa6198d-9619-457c-81c5-67816916efe6"
-
-</p>
 
 
 ## 🤖 Introduction
@@ -28,3 +24,9 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 - AWS EC2
 - Gunicorn
 - Nginx
+## Architecture
+
+<p align="center">
+     <img src="https://github.com/Baraa-Rayed/EC2-Instance-Operator-API/assets/101131013/4fa6198d-9619-457c-81c5-67816916efe6"
+
+</p>
