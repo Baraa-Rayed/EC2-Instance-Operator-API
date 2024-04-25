@@ -1,8 +1,9 @@
 # EC2 Instance Operator API
 <p align="center">
-     <img src="https://github.com/Baraa-Rayed/EC2-Instance-Operator-API/assets/101131013/1be5f600-271c-4cdd-8508-f891fdefe59d"
+     <img src="https://github.com/Baraa-Rayed/EC2-Instance-Operator-API/assets/101131013/4fa6198d-9619-457c-81c5-67816916efe6"
 
 </p>
+
 
 ## 🤖 Introduction
 
