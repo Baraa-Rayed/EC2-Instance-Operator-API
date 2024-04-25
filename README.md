@@ -10,9 +10,10 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 
 ## 🔋 Features
 
-- Deploy a Flask web application on AWS EC2.
-- Use Gunicorn as the WSGI server.
-- Configure Nginx as a reverse proxy.
+- Set up an API Gateway endpoint.
+- Create a Lambda function.
+- Deploy Python code to the Lambda function, enabling it to start and stop the EC2 instance.
+- Establish a connection between the API Gateway endpoint and the Lambda function, ensuring the deployment allows invocation of the Lambda function.
 
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -20,13 +21,25 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 ## ⚙️ Tech Stack
 
 - Python
-- Flask
+- Lambda
+- API Gateway
 - AWS EC2
-- Gunicorn
-- Nginx
+
 ## Architecture
 
 <p align="center">
      <img src="https://github.com/Baraa-Rayed/EC2-Instance-Operator-API/assets/101131013/4fa6198d-9619-457c-81c5-67816916efe6"
 
 </p>
+
+## 🧰 Getting Started
+
+### Prerequisites
+
+- An AWS account
+- Basic knowledge of Python and Flask
+- Familiarity with EC2
+
+## **Steps**
+
+### **1. Clone this project to EC2**
