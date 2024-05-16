@@ -57,6 +57,7 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 - For execution role click on IAM console link to navigate to IAM
      1. Create a Policy
        - Select JSON, copy the JSON format below, and paste it into the policy editor.
+
         ```
           {
           "Version": "2012-10-17",
@@ -80,8 +81,8 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
           }
           ]
           }
-          
+
           ```
 
-       - enter Policy name, something like: **lambdasatrtandstopEC2**
+     - enter Policy name, something like: **lambdasatrtandstopEC2**
        
