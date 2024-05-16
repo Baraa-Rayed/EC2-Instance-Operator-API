@@ -48,10 +48,6 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 - Make sure that your project works fine by referring to the HTTP link with the public IP address of the EC2 instance.
 - Here we go. If everything works fine, you will see something like the provided SC below.
 
-<p align="center">
-     <img src="https://github.com/Baraa-Rayed/EC2-Instance-Operator-API/assets/101131013/ec83cf14-2593-4792-b944-ff8308e3ddc2"
-</p>
-
 ### **2. Create Lamba Function**
 
 - Now navigate to the AWS console in the search box search for lambda click on it.
@@ -61,7 +57,7 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 - For execution role click on IAM console link to navigate to IAM
      1. Create a Policy
        - Select JSON, copy the JSON format below, and paste it into the policy editor.
-        ```bash
+        ```
           {
           "Version": "2012-10-17",
           "Statement": [
@@ -84,6 +80,8 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
           }
           ]
           }
+          
           ```
+
        - enter Policy name, something like: **lambdasatrtandstopEC2**
        
