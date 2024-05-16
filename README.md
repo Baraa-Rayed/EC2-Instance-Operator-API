@@ -43,3 +43,7 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 ## **Steps**
 
 ### **1. Clone the project to EC2 link:[ML Flask App Repository](https://github.com/Baraa-Rayed/ML_Flask_app.git)**
+
+- Please refer to the README file for the provided repo link and follow the steps to deploy the project to the EC2 instance.
+- Make sure that your project works fine by referring to the HTTP link with the public IP address of the EC2 instance.
+- Here we go. If everything works fine, you will see something like the provided SC below.
