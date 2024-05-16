@@ -49,8 +49,7 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 - Here we go. If everything works fine, you will see something like the provided SC below.
 
 <p align="center">
-     <img src="https://github.com/Baraa-Rayed/EC2-Instance-Operator-API/assets/101131013/d00ca784-74bd-435d-98f8-36f0f907d653"
-
+     <img src="https://github.com/Baraa-Rayed/EC2-Instance-Operator-API/assets/101131013/ec83cf14-2593-4792-b944-ff8308e3ddc2"
 </p>
 
 ### **2. Create Lamba Function**
