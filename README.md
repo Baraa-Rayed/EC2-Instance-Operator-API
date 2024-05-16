@@ -47,3 +47,39 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 - Please refer to the README file for the provided repo link and follow the steps to deploy the project to the EC2 instance.
 - Make sure that your project works fine by referring to the HTTP link with the public IP address of the EC2 instance.
 - Here we go. If everything works fine, you will see something like the provided SC below.
+
+### **2. Create Lamba Function**
+
+- Now navigate to the AWS consolem in the search box search for lambda click on it.
+- Clicks on 'Create a Function' button 
+- Enter a function name, something like: **lambdasatrtandstopmachine**
+- For python version choose a version >=3.9
+- For exection role click on IAM console lin for navigate to IAM
+     1. Create a Policy
+       - Select JSON, copy the JSON format below, and paste it into the policy editor.
+        ```bash
+          {
+          "Version": "2012-10-17",
+          "Statement": [
+          {
+               "Effect": "Allow",
+               "Action": [
+               "logs:CreateLogGroup",
+               "logs:CreateLogStream",
+               "logs:PutLogEvents"
+               ],
+               "Resource": "arn:aws:logs:*:*:*"
+          },
+          {
+               "Effect": "Allow",
+               "Action": [
+               "ec2:Start*",
+               "ec2:Stop*"
+               ],
+               "Resource": "*"
+          }
+          ]
+          }
+          ```
+       - enter Policy name, something like: **lambdasatrtandstopEC2**
+       - 
