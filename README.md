@@ -50,11 +50,11 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 
 ### **2. Create Lamba Function**
 
-- Now navigate to the AWS consolem in the search box search for lambda click on it.
+- Now navigate to the AWS console in the search box search for lambda click on it.
 - Clicks on 'Create a Function' button 
 - Enter a function name, something like: **lambdasatrtandstopmachine**
 - For python version choose a version >=3.9
-- For exection role click on IAM console lin for navigate to IAM
+- For exection role click on IAM console link for navigate to IAM
      1. Create a Policy
        - Select JSON, copy the JSON format below, and paste it into the policy editor.
         ```bash
@@ -82,4 +82,4 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
           }
           ```
        - enter Policy name, something like: **lambdasatrtandstopEC2**
-       - 
+       
