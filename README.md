@@ -42,4 +42,4 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 
 ## **Steps**
 
-### **1. Clone this project to EC2**
+### **1. Clone the project to EC2 link:[ML Flask App Repository](https://github.com/Baraa-Rayed/ML_Flask_app.git)**
