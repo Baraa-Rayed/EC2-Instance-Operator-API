@@ -48,6 +48,11 @@ This tutorial will walk you through controlling an AWS EC2 instance via an API g
 - Make sure that your project works fine by referring to the HTTP link with the public IP address of the EC2 instance.
 - Here we go. If everything works fine, you will see something like the provided SC below.
 
+<p align="center">
+     <img src="https://github.com/Baraa-Rayed/EC2-Instance-Operator-API/assets/101131013/d00ca784-74bd-435d-98f8-36f0f907d653"
+
+</p>
+
 ### **2. Create Lamba Function**
 
 - Now navigate to the AWS console in the search box search for lambda click on it.
